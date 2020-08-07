@@ -6,6 +6,9 @@ html * {
 }
 
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     height: 40px;
     width: 100vw;
     background-color: #f2f2f2;
@@ -17,14 +20,6 @@ html * {
     text-decoration: none;
     font-weight: 100;
     font-size: 1.5em;
-}
-
-.navbar img {
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 40px;
-    line-height: 37px;;
 }
 
 .navbar ul li:hover {
@@ -45,6 +40,14 @@ html * {
     line-height: 37px;
 }
 
+.navbar img {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    height: 32px;
+    width: 105px;
+}
+
 .contact {
     padding-top: 0.7em;
     width: 350px;
@@ -57,7 +60,7 @@ html * {
     padding-left: 20px;
     padding-right: 20px;
     border-collapse: separate; 
-    border-spacing: 0 1.2em;
+    border-spacing: 0 1.1em;
     text-align: left;
     float: right;
 }
