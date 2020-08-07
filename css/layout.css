@@ -8,7 +8,7 @@ html * {
 .navbar {
     height: 40px;
     width: 100vw;
-    background-color: white;
+    background-color: #f2f2f2;
     border-style: outset;
 }
 
@@ -28,7 +28,7 @@ html * {
 }
 
 .navbar ul li:hover {
-    background-color: #f2f2f2;
+    background-color: #E8E8E8;
     cursor: pointer;
 }
 
