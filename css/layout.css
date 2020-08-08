@@ -5,31 +5,43 @@ html * {
     font-style: italic;
 }
 
+.link {
+    color:black;
+    text-decoration: none; 
+    background-color: none;
+}
+
+/*
+NAVIGATION BAR
+*/
+
 .navbar {
     position: sticky;
-    top: 0;
+    top: 2vw;
     z-index: 1000;
     height: 40px;
     width: 100vw;
-    background-color: #f2f2f2;
-    border-style: outset;
+    background-color: white;
+}
+
+.navbar-inner {
+    margin-left: 2vw;
 }
 
 .navbar a {
     color: black;
     text-decoration: none;
     font-weight: 100;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .navbar ul li:hover {
-    background-color: #E8E8E8;
+    text-decoration: underline;
     cursor: pointer;
 }
 
 .navbar ul {
     list-style-type: none;
-    width: 100%;
 }
 
 .navbar ul li {
@@ -42,15 +54,19 @@ html * {
 
 .navbar img {
     position: absolute;
-    top: 0px;
-    right: 25px;
+    right: 4vw;
     height: 30px;
     width: 100px;
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
+/*
+CONTACT TABLE
+*/
+
 .contact {
-    padding-top: 0.7em;
+    top: 40px;
+    padding-top: 2.5em;
     width: 350px;
     height: 200px;
     float: right;
@@ -79,17 +95,92 @@ html * {
     font-weight: bold;
 }
 
-.link {
-    color:black;
-    text-decoration: none; 
-    background-color: none;
-}
-
 .contact a {
     text-decoration: none;
 }
 
 .contact a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 1em;
+}
+
+/*
+FOOTER SECTION
+*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 5vw;
+    width: 100vw;
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer ul li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    line-height: 37px;
+}
+
+.footer button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 1em;
+}
+
+/*
+EMAIL BUTTON STUFF
+*/
+
+.email-hide {
+    display: none;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: thin;
+    background: #f2f2f2;
+    height: 1.6em;
+    width: 9em;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.6em;
+    opacity: 0.85;
+    position: absolute;
+    z-index: 3000;
+}
+
+.email:hover + .email-hide {
+    display: block;
+}
+
+.email button:hover {
     cursor: pointer;
     text-decoration: underline;
 }

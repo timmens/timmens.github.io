@@ -7,10 +7,12 @@
         </title>
         <link rel="icon" href="./files/icon.png"/>
         <link rel="stylesheet" href="./css/layout.css"/>
+        <script type="text/javascript" src="./js/copy.js"></script>  
     </head>
     
     <body>
         <div class="navbar">
+            <div class="navbar-inner">
             <img src="./files/name.png" class="ribbon">
             <ul>
                 <li>
@@ -26,18 +28,25 @@
                     <a href="./miscellaneous.html">miscellaneous</a>
                 </li>
             </ul>
+            </div>
+            <hr style="width: 95%; margin: auto; border: none; border-bottom: 2px solid black;"/>
         </div>
 
         <div class="contact">
             <table>
                 <tr>
                   <th>email:</th>
-                  <th>tim.mensinger(at)uni-bonn.de</th>
+                  <th>
+                    <div class="email">
+                        <button onclick="copy_to_clipboard('tim.mensinger@uni-bonn.de')">tim.mensinger(at)uni-bonn.de</button>
+                    </div>
+                    <div class="email-hide">click email to copy</div>
+                  </th>
                 </tr>
                 <tr>
                   <td>github:</td>
                   <td>
-                        <a href="https://github.com/timmens">
+                        <a href="https://github.com/timmens" target="_blank">
                       <div class="link">
                             https://github.com/timmens
                        </div>
@@ -48,10 +57,27 @@
         </div>
 
         <p style="text-align: center; margin-top: 100px; font-size: 3em;">
-            Website under construction..
+            Website under construction...
         </p>
 
+        <div class="footer">
+            <hr style="width: 40%; margin: auto;"/>
+            <ul>
+                <li>
+                    <div class="email">
+                        <button onclick="copy_to_clipboard('tim.mensinger@uni-bonn.de')">tim.mensinger(at)uni-bonn.de</button>
+                    </div>
+                    <div class="email-hide">click email to copy</div>
+                </li>
+                <li>
+                    <a href="https://github.com/timmens" target="_blank">
+                       <div class="link">
+                            https://github.com/timmens
+                       </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
     </body>
-
-
 </html>
