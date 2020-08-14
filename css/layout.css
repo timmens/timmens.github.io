@@ -4,11 +4,17 @@ html * {
     font-family: 'Josefin Sans', sans-serif, 'Bellefair';
 }
 
+h3 {
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
 
 .link {
     color:black;
     text-decoration: none; 
     background-color: none;
+    display: inline-block;
 }
 
 /*
@@ -17,9 +23,9 @@ NAVIGATION BAR
 
 .navbar {
     position: sticky;
-    top: 2vw;
+    top: 2em;
     z-index: 1000;
-    height: 40px;
+    height: 3em;
     width: 100vw;
     background-color: white;
     font-variant: small-caps;
@@ -50,68 +56,18 @@ NAVIGATION BAR
     float: left;
     padding-left: 20px;
     padding-right: 20px;
-    height: 40px;
-    line-height: 37px;
+    height: 3em;
+    line-height: 2.9em;
 }
 
 .navbar img {
     position: absolute;
     right: 4vw;
-    height: 30px;
-    width: 100px;
+    height: 2em;
+    width: 7em;
     background-color: white;
 }
 
-/*
-CONTACT TABLE
-*/
-
-.contact {
-    top: 40px;
-    padding-top: 2.5em;
-    width: 350px;
-    height: 200px;
-    float: right;
-}
-
-.contact table {
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-collapse: separate; 
-    border-spacing: 0 1.1em;
-    text-align: left;
-    float: right;
-}
-
-.contact th, td {
-    font-weight: normal;
-    font-size: 1.1em;
-}
-
-.contact td:first-child {
-    font-weight: bold;
-}
-
-.contact th:first-child {
-    font-weight: bold;
-}
-
-.contact a {
-    text-decoration: none;
-}
-
-.contact a:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.contact button {
-    padding: 0;
-    border: none;
-    background: none;
-    font-size: 1em;
-}
 
 /*
 FOOTER SECTION
@@ -193,10 +149,48 @@ HOME STUFF
 */
 
 .home_title {
-    padding-top: 75px;
+    padding-top: 5em;
     margin-left: 4em;
 }
 
+.home_title h1 {
+    font-weight: 100;
+}
+
+
 .home_text {
-    padding-top: 120px;
+    padding-top: 3em;
+    margin-left: 3.5em;
+    width: 80%;
+    font-size: 1.2em;
+}
+
+
+.home_contact {
+    padding-top: 2em;
+}
+
+.home_contact ul {
+    padding-left: 1em;
+}
+
+.home_contact ul li {
+    padding-top: 10px;
+}
+
+
+.home_contact a {
+    text-decoration: none;
+}
+
+.home_contact a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home_contact button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 1em;
 }
