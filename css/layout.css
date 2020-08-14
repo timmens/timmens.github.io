@@ -186,3 +186,17 @@ EMAIL BUTTON STUFF
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+/*
+HOME STUFF
+*/
+
+.home_title {
+    padding-top: 75px;
+    margin-left: 4em;
+}
+
+.home_text {
+    padding-top: 120px;
+}
