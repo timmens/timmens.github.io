@@ -1,9 +1,9 @@
 html * {
     margin: 0px;
     padding: 0px;
-    font-family: Optima;
-    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif, 'Bellefair';
 }
+
 
 .link {
     color:black;
@@ -22,6 +22,7 @@ NAVIGATION BAR
     height: 40px;
     width: 100vw;
     background-color: white;
+    font-variant: small-caps;
 }
 
 .navbar-inner {
