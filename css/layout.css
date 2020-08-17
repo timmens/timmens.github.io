@@ -81,11 +81,14 @@ FOOTER SECTION
 */
 
 .footer {
-    position: fixed;
     left: 0;
-    bottom: 5vw;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    bottom: 2vw;
     width: 100vw;
     color: black;
+    font-size: 10pt;
 }
 
 .footer a {
@@ -103,7 +106,6 @@ FOOTER SECTION
 
 .footer ul li {
     float: left;
-    padding-left: 20px;
     padding-right: 20px;
     height: 40px;
     line-height: 37px;
@@ -217,4 +219,30 @@ HOME STUFF
     border: none;
     background: none;
     font-size: 1em;
+}
+
+
+/*
+BLOG ENTRY
+*/
+
+.blog-entry img {
+    position: relative;
+    display: inline-block;
+}
+
+.home_text a {
+    text-decoration: None;
+    color: black;
+}
+
+.home_text ul {
+    padding-left: 1.5em;
+    margin: auto;
+    float: left;
+}
+
+.home_text ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
