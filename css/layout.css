@@ -2,7 +2,18 @@ html * {
     margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif, 'Bellefair';
+    box-sizing: border-box;
 }
+
+#page-container {
+    position: relative;
+    min-height: 95vh;
+}
+
+#content-wrap {
+    padding-bottom: 15rem;
+}
+
 
 h3 {
     font-variant: small-caps;
@@ -29,15 +40,16 @@ NAVIGATION BAR
 
 .navbar {
     position: sticky;
-    top: 2em;
     z-index: 1000;
-    height: 3em;
+    height: 4em;
     width: 100vw;
     background-color: white;
     font-variant: small-caps;
 }
 
 .navbar-inner {
+    margin-top: 2em;
+    height: 2em;
     margin-left: 2vw;
     right: 5vw;
 }
@@ -80,22 +92,24 @@ NAVIGATION BAR
 FOOTER SECTION
 */
 
-.footer {
+#footer {
+    bottom: 2rem;
+    height: 3rem;
+    position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    position: fixed;
-    bottom: 2vw;
-    width: 100vw;
+    width: 100%;
     color: black;
     font-size: 10pt;
+    text-align: center;
 }
 
-.footer a {
+#footer a {
     text-decoration: none;
 }
 
-.footer ul {
+#footer ul {
     list-style-type: none;
     width: 100%;
     text-align: center;
@@ -104,19 +118,19 @@ FOOTER SECTION
     display: flex;
 }
 
-.footer ul li {
+#footer ul li {
     float: left;
     padding-right: 20px;
     height: 40px;
     line-height: 37px;
 }
 
-.footer ul li:hover {
+#footer ul li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.footer button {
+#footer button {
     padding: 0;
     border: none;
     background: none;
@@ -181,7 +195,7 @@ HOME STUFF
 */
 
 .home_title {
-    padding-top: 5em;
+    padding-top: 3em;
     margin-left: 4em;
 }
 
