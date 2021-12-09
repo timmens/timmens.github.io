@@ -25,7 +25,7 @@ computer implementation in an extensible/modular fashion. Like many modern resea
 I care a great deal about reproducibility and the open-source philosophy.
 
 For the most part, I studied economics at the University of Bonn, but I also attended
-some lectures / took exams in mathematics and computer science. For more details on my
+some lectures/took exams in mathematics and computer science. For more details on my
 education see my [curriculum vitae](/cv/). To view some of my old projects, check out my
 [GitHub](https://github.com/timmens).
 
