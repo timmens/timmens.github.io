@@ -2,23 +2,34 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: PhD student in Economics # description
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile_picture.jpeg
+  address:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey! I'm Tim, a second year PhD student in economics at the [Bonn Graduate School in
+Economics](https://www.bgse.uni-bonn.de/en/people/student-directory/2020/tim-mensinger).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Broadly speaking I'm interested in econometrics &#38; statistics, structural
+microeconometrics and causal inference. I also love programming, especially in Python,
+which is why I have a thing for large computational projects. At the moment my sweet
+spot lies in the intersection between development/extension of methods and
+their computer implementation in an extensible/modular fashion. Like many
+modern researchers I care a great deal about reproducibility and the open
+source philosphy.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+For the most part I studied economics at the University of Bonn, but I also attended
+some lectures / took exams in mathematics and computer science. For more details on my
+education see my [curriculum vitae](/cv/). To view some of my old projects check out my
+[GitHub](https://github.com/timmens).
+
+If you want to work with me, extend one of my projects or simply have a chat, feel free
+to contact me via email (``tmensinger[at]uni-bonn.de``) or any other social network. You
+can find contact links below.
