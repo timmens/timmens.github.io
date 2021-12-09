@@ -1,6 +1,6 @@
 {% if site.email %}
-<p hidden id="mail">tmensinger@uni-bonn.de</p>
-<button id="email" onclick="copy_to_clipboard(document.getElementById('mail').innerHTML)">
+<p hidden id="mail">{{ site.email }}</p>
+<button onclick="copy_to_clipboard(document.getElementById('mail').innerHTML)">
     <i class="fas fa-envelope"></i>
 </button>
 

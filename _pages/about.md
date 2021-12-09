@@ -30,5 +30,5 @@ education see my [curriculum vitae](/cv/). To view some of my old projects, chec
 [GitHub](https://github.com/timmens).
 
 If you want to work with me, extend one of my projects or simply have a chat, feel free
-to contact me via email (``tmensinger[at]uni-bonn.de``) or any other social network. You
-can find contact links below.
+to contact me via email or any other social network. You find the my contact information
+below.
