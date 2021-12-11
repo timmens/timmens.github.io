@@ -33,5 +33,5 @@ education, see my [curriculum vitae](/cv/). Also, check out my
 [GitHub](https://github.com/timmens) to have a look at my projects.
 
 If you want to work with me, extend one of my projects or simply have a chat, feel free
-to contact me via email or any other social network. You find my contact information
-below.
+to contact me via email or any other social network. You will find my contact
+information below.
