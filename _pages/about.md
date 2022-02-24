@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 description: PhD student in Economics # description
 
@@ -20,12 +20,10 @@ social: true  # includes social icons at the bottom of the page
 Hey! I'm Tim, a second-year PhD student in economics at the [Bonn Graduate School in
 Economics](https://www.bgse.uni-bonn.de/en/people/student-directory/2020/tim-mensinger).
 
-Broadly speaking, I'm interested in econometrics &#38; statistics, structural
-microeconometrics, and causal inference. I also love programming, especially in Python,
-which is why I have a thing for large computational projects. At the moment, my sweet
-spot lies in the intersection between the development/extension of methods and their
-computer implementation in an extensible/modular fashion. Like many modern researchers,
-I care a great deal about reproducibility and the open-source philosophy.
+I'm into econometrics &#39; statistics, structural microeconometrics, causal inference
+and programming. Besides that, I'm a big advocate for reproducibility and the
+open-source philosphy. If you want to know more about my interests, see my [me
+page](/me/).
 
 For the most part, I studied economics at the University of Bonn, but I also attended
 lectures/took exams in mathematics and computer science. For more details on my
