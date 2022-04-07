@@ -22,13 +22,9 @@ Economics](https://www.bgse.uni-bonn.de/en/people/student-directory/2020/tim-men
 
 I'm into econometrics & statistics, structural microeconometrics, causal inference and
 programming. Besides that, I'm a big advocate for reproducibility and the open-source
-philosphy. If you want to know more about my interests, see my [me page](/me/).
+philosphy.
 
 For the most part, I studied economics at the University of Bonn, but I also attended
 lectures/took exams in mathematics and computer science. For more details on my
 education, see my [curriculum vitae](/cv/). Also, check out my
 [GitHub](https://github.com/timmens) to have a look at my projects.
-
-If you want to work with me, extend one of my projects or simply have a chat, feel free
-to contact me via email or any other social network. You will find my contact
-information below.
