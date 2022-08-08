@@ -2,6 +2,12 @@
 
 This is the github page corresponding to my academic webpage.
 
+## Build locally
+
+```
+bundle exec jekyll serve
+```
+
 ## Original Author and License
 
 This is a clone and modification of the

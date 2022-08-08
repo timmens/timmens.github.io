@@ -21,8 +21,8 @@ Hey! I'm Tim, a second-year PhD student in economics at the [Bonn Graduate Schoo
 Economics](https://www.bgse.uni-bonn.de/en/people/student-directory/2020/tim-mensinger).
 
 I'm into econometrics & statistics, structural microeconometrics, causal inference and
-programming. Besides that, I'm a big advocate for reproducibility and the open-source
-philosphy.
+programming. Besides that, I'm a big advocate for reproducibility, the open-source
+philosphy and sustainability.
 
 For the most part, I studied economics at the University of Bonn, but I also attended
 lectures/took exams in mathematics and computer science. For more details on my
