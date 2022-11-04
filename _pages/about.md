@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
     <br>
 </div>
 
-Hey! I'm Tim, a second-year PhD student in economics at the [Bonn Graduate School in
+Hey! I'm Tim, a third-year PhD student in economics at the [Bonn Graduate School in
 Economics](https://www.bgse.uni-bonn.de/en/people/student-directory/2020/tim-mensinger).
 
 I'm into econometrics & statistics, structural microeconometrics, causal inference and
