@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: Publications in reversed chronological order.
+permalink: /papers/
+title: publications and working papers
+description: Papers in reversed chronological order.
 years: [2021]
 nav: true
 ---
