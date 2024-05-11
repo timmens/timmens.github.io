@@ -7,7 +7,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 1.1rem;
     margin: 0;
-    padding-top: 3rem; /* Space for the fixed navbar */
+    padding-top: 0.5rem; /* Space for the fixed navbar */
     padding-left: 2rem;
     padding-right: 2rem;
     box-sizing: border-box;
@@ -36,44 +36,6 @@ main {
     /* min-height: 89vh; /* Ensures the footer is pushed to the bottom of the viewport */
 }
 
-/* Header and Navbar Styles */
-header {
-    background: white;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-nav {
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-}
-
-nav a:hover {
-    color: #307dd0;
-    text-decoration: none;
-}
-
 a {
     text-decoration: none;
     color: #307dd0;
@@ -83,21 +45,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-/* Responsive Adjustments
-@media (max-width: 600px) {
-    nav ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
-*/
 
 /* Section styles */
 
