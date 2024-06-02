@@ -1,22 +1,20 @@
 # Tim's Personal Website
 
-Minimalistic academic webpage that works on mobile and desktop.
+Minimalistic academic webpage that works (more or less) on mobile and desktop.
 
 ## Development
 
 For automatic updating while editing the source files install the VSCode extension
-"Live Server".
+"Live Server" and then, after running CTRL+SHIFT+P, select "Liver Server: Open with Live
+Server".
 
-Page structure:
+Project structure:
 
 ```console
 root/
-├── index.html        # Main page
-├── about.html        # Your academic bio, etc.
+├── index.html        # Main page (everything is in one file)
 ├── css/
 │   └── style.css     # Styles for your site
-├── js/
-│   └── script.js     # Minimal JavaScript if necessary
 └── assets/
     ├── img/          # Images folder
     └── pdf/          # PDFs of your papers, CV, etc.
