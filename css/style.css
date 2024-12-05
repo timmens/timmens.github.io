@@ -49,10 +49,11 @@ a {
     text-decoration: none;
     color: var(--green);
     font-weight: 600;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Section styles */
