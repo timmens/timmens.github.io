@@ -4,8 +4,10 @@ html {
 }
 
 :root {
-    --green: #4b733f;
-    --blue:  #396a93;
+    --sky:   #4f95c4;
+    --olive: #7c7a52;
+    --brick: #9c4a3a;
+    --sage:  #6b7a55;
 }
 
 body {
@@ -45,9 +47,9 @@ main {
     /* min-height: 89vh; /* Ensures the footer is pushed to the bottom of the viewport */
 }
 
-a {
+a, .email {
     text-decoration: none;
-    color: var(--green);
+    color: var(--sky);
     font-weight: 600;
     text-decoration: underline;
 }
@@ -74,9 +76,7 @@ a:hover {
 }
 
 .text-block ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    columns: 1;
 }
 
 /* Image styling */

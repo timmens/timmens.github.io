@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tim Mensinger - PhD candidate in Economics">
+    <meta name="description" content="Tim Mensinger is an AI Researcher at the appliedAI Institute, finishing up a PhD in Economics at the University of Bonn.">
 
     <title>Tim Mensinger</title>
 
@@ -16,9 +16,11 @@
         rel="stylesheet">
 
     <script>
-        function CopyToClipboard(text) {
-            window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
-        }
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.email').forEach(el => {
+                el.textContent = `${el.dataset.u}[at]${el.dataset.d}`;
+            });
+        });
     </script>
 </head>
 
@@ -34,37 +36,50 @@
             <div class="container">
                 <div class="text-block">
                     <p>
-                        Hey! I'm Tim, a fifth-year Ph.D. candidate in economics at the
+                        Hey! I'm Tim, an AI Researcher on the <i>Research & Engineering</i> team at the
+                        <a href="https://www.appliedai-institute.de/" target="_blank">
+                            appliedAI Institute</a>,
+                        finishing up my PhD in economics at the
                         <a href="https://www.econ.uni-bonn.de/bgse/en" target="_blank">
-                            Bonn Graduate School of Economics</a>.
+                            University of Bonn</a>.
                     </p>
 
                     <p>
-                        I'm interested in (structural) microeconometrics, causal
-                        inference, machine learning, scientific computing and software
-                        engineering.
+                        At work I design AI trainings and work on applied research
+                        projects at the intersection of AI and economics. I bring in my
+                        background in econometrics and causal inference alongside modern
+                        AI engineering practices. My PhD work is in statistics
+                        and scientific computing: structural models of labor supply,
+                        statistical methodology for functional data, and optimization
+                        algorithms designed for the method of simulated moments.
                     </p>
                     <p>
-                        I greatly enjoy teaching econometrics on a blackboard, but even
-                        more, I love teaching reproducible research practices and
-                        programming with Python.
+                        I love teaching: econometrics on a blackboard, reproducible
+                        research practices with Python, AI literacy for non-technical audiences,
+                        and
+                        <a href="https://2026.pycon.de/masterclasses/ai-assisted-coding-claude-code-applied-ai/" target="_blank">
+                            agentic coding</a>
+                        for engineers. I also contribute to open-source
+                        scientific software, including
+                        <a href="https://github.com/optimagic-dev/optimagic" target="_blank">optimagic</a>
+                        and
+                        <a href="https://github.com/OpenSourceEconomics/pylcm" target="_blank">PyLCM</a>
+                        (a central project of my PhD).
+                        Most of what I learn ends up in one of those two channels.
                     </p>
                     <p>
-                        When I'm not working on functional data analysis or
-                        discrete-continuous dynamic choice models, you'll likely find me
-                        contributing to open-source libraries.
-                    </p>
-                    <p>
-                        Feel free to reach out —I'm always happy to chat!
+                        Outside of work you'll find me cooking with friends, tinkering
+                        on my bicycle, or on a football (soccer) pitch. Feel free to
+                        reach out, I'm always happy to chat.
                     </p>
 
                     <h2>Contact</h2>
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="CopyToClipboard('mensinger@uni-bonn.de')">Email</a></li>
-                        <li><a href="https://github.com/timmens" target="_blank">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/timmensinger" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://twitter.com/MensingerTim" target="_blank">Twitter</a></li>
-                        <li><a href="https://bsky.app/profile/mensingertim.bsky.social"_blank">Bluesky</a></li>
+                        <li><span class="email" data-u="t.mensinger" data-d="appliedai-institute.de"></span></li>
+                        <li><a href="https://www.linkedin.com/in/timmensinger" target="_blank">linkedin/timmensinger</a></li>
+                        <li><a href="https://twitter.com/MensingerTim" target="_blank">twitter/mensingertim</a></li>
+                        <li><a href="https://bsky.app/profile/mensingertim.bsky.social" target="_blank">bsky/mensingertim.bsky.social</a></li>
+                        <li><a href="https://github.com/timmens" target="_blank">github/timmens</a></li>
                     </ul>
                 </div>
 
@@ -78,7 +93,7 @@
         </section>
 
         <section>
-            <h2>(Working) Papers</h2>
+            <h2>Papers</h2>
             <ul>
 
                 <li>
@@ -100,20 +115,13 @@
                 </li>
 
                 <li>
-                    Causal inference with functional data
-                    <br>
-                    <span class="coauthors">joint with Dominik Liebl</span><br>
-                    <i>Working Paper</i>
-                </li>
-
-                <li>
                     Simultaneous Prediction and Confidence Bands for Concurrent
                     Functional Linear Regression
                     <br>
                     <span class="coauthors">
-			            joint with Creutzinger M., Liebl D., Sharp J.
-		            </span><br>
-                    <i>Working Paper</i>
+                        joint with Creutzinger M., Liebl D., Sharp J.
+                    </span><br>
+                    Submitted to <i>Journal of Machine Learning Research</i>
                 </li>
 
                 <li>
@@ -121,7 +129,7 @@
                         A wavelet method for panel models with jump discontinuities in the parameters
                     </a><br>
                     <span class="coauthors">
-                        joint with Bada O., Kneip A., Liebl D., Gualtieri, J., and Sickles, R.C.
+                        joint with Bada O., Kneip A., Liebl D., Gualtieri J., Sickles R.C.
                     </span><br>
                     <i>Journal of Econometrics</i>, 2021
 
@@ -134,7 +142,7 @@
     </main>
 
     <footer>
-        <p>&copy; Copyright 2024 Tim Mensinger. Last updated: May 12, 2024.</p>
+        <p>&copy; Copyright 2026 Tim Mensinger. Last updated: May 19, 2026.</p>
     </footer>
 </body>
 
