@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tim Mensinger is an AI Researcher at the appliedAI Institute, finishing up a PhD in Economics at the University of Bonn.">
-
+    <meta name="description" content="Tim Mensinger is a researcher in economics and econometrics and a PhD student at the University of Bonn, working on structural life-cycle models, computational econometrics and scientific software.">
     <title>Tim Mensinger</title>
-
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+        .text-block { flex: 1; min-width: 0; }
+        .image-block { flex: 0 0 28%; }
+        .research li { margin-bottom: 1.2rem; }
+        .research li p { margin: 0.4rem 0 0; }
+        @media (max-width: 600px) { .image-block { flex: auto; } }
+    </style>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.email').forEach(el => {
@@ -23,129 +24,50 @@
         });
     </script>
 </head>
-
 <body>
-    <main>
-        <p>
-            <span class="name">Tim Mensinger</span>
-            <span class="pronouns">(he/him)</span>
-        </p>
-
-        <section>
-
-            <div class="container">
-                <div class="text-block">
-                    <p>
-                        Hey, I'm Tim, an AI researcher on the <i>Research & Engineering</i> team at the
-                        <a href="https://www.appliedai-institute.de/" target="_blank">
-                            appliedAI Institute</a>,
-                        and I'm currently finishing my PhD in economics at the
-                        <a href="https://www.econ.uni-bonn.de/bgse/en" target="_blank">
-                            University of Bonn</a>.
-                    </p>
-
-                    <p>
-                        At work, I design AI training programs and contribute to applied
-                        research at the intersection of AI and economics, combining
-                        econometrics, causal inference, and modern AI engineering
-                        practices. My PhD work focuses on economics, statistics and scientific
-                        computing, including structural models of labor supply,
-                        statistical methodology for functional data, and optimization
-                        algorithms for the method of simulated moments.
-                    </p>
-                    <p>
-                        I love teaching, whether it is econometrics on a blackboard,
-                        reproducible research practices with Python, AI literacy for
-                        non-technical audiences, or
-                        <a href="https://2026.pycon.de/masterclasses/ai-assisted-coding-claude-code-applied-ai/" target="_blank">
-                            agentic coding</a>
-                        for engineers. I also contribute to open-source
-                        scientific software, including
-                        <a href="https://github.com/optimagic-dev/optimagic" target="_blank">optimagic</a>
-                        and
-                        <a href="https://github.com/OpenSourceEconomics/pylcm" target="_blank">PyLCM</a>,
-                        a central project of my PhD.
-                        Most of what I learn eventually flows into either teaching or
-                        open-source work.
-                    </p>
-                    <p>
-                        Outside of work, you'll usually find me cooking with friends,
-                        tinkering with my bicycle, or playing football. Feel free to
-                        reach out; I'm always happy to chat.
-                    </p>
-
-                    <h2>Contact</h2>
-                    <ul>
-                        <li><span class="email" data-u="t.mensinger" data-d="appliedai-institute.de"></span></li>
-                        <li><a href="https://www.linkedin.com/in/timmensinger" target="_blank">linkedin/timmensinger</a></li>
-                        <li><a href="https://twitter.com/MensingerTim" target="_blank">twitter/mensingertim</a></li>
-                        <li><a href="https://bsky.app/profile/mensingertim.bsky.social" target="_blank">bsky/mensingertim.bsky.social</a></li>
-                        <li><a href="https://github.com/timmens" target="_blank">github/timmens</a></li>
-                    </ul>
-                </div>
-
-                <div class="image-block">
-                    <img src="assets/img/rectangle_close_up.jpg" alt="">
-                </div>
-
+<main>
+    <p><span class="name">Tim Mensinger</span> <span class="pronouns">(he/him)</span></p>
+    <section>
+        <div class="container">
+            <div class="text-block">
+                <p>Hey, I'm Tim, a PhD student at the <a href="https://www.econ.uni-bonn.de/bgse/en">Bonn Graduate School of Economics, University of Bonn</a>.</p>
+                <p>My research focuses on structural life-cycle models, computational econometrics, and simulation-based estimation, with applications to labour supply. I work on numerical optimisation and GPU computing, alongside statistical methods for functional data.</p>
+                <p>From 2025 to 2026, I worked on applied AI research and training at the <a href="https://www.appliedai-institute.de/">appliedAI Institute for Europe</a>, a non-profit institute, where I developed agentic engineering practices and researched the labour-market effects of AI.</p>
+                <p>I enjoy teaching (from math on a blackboard to programming on a screen) and developing open-source tools for economic research. I'm a co-author of <a href="https://github.com/OpenSourceEconomics/pylcm">PyLCM</a> and a maintainer of <a href="https://github.com/optimagic-dev/optimagic">optimagic</a>.</p>
             </div>
-
-
-        </section>
-
-        <section>
-            <h2>Papers</h2>
-            <ul>
-
-                <li>
-                    <a href="https://www.crctr224.de/research/discussion-papers/archive/dp513">
-                        How Gender Role Attitudes Shape Maternal Labor Supply
-                    </a><br>
-                    <span class="coauthors">joint with Christian Zimpelmann</span><br>
-                    <i>Working Paper</i>
-                </li>
-
-                <li>
-                    <a href="https://www.crctr224.de/research/discussion-papers/archive/dp522">
-                        Tranquilo: An Optimizer for the Method of Simulated Moments
-                    </a><br>
-                    <span class="coauthors">
-                        joint with Gabler J., Gsell S., Petrosyan M.
-                    </span><br>
-                    <i>Working Paper</i>
-                </li>
-
-                <li>
-                    <a href="https://www.dliebl.com/files/Creutzinger_et_al_2026.pdf">
-                        Adaptive Simultaneous Prediction Bands in Concurrent
-                        Functional Linear Regression
-                    </a><br>
-                    <span class="coauthors">
-                        joint with Creutzinger M., Liebl D., Sharp J.
-                    </span><br>
-                    Submitted to <i>Journal of Machine Learning Research</i>
-                </li>
-
-                <li>
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0304407621002189">
-                        A wavelet method for panel models with jump discontinuities in the parameters
-                    </a><br>
-                    <span class="coauthors">
-                        joint with Bada O., Kneip A., Liebl D., Gualtieri J., Sickles R.C.
-                    </span><br>
-                    <i>Journal of Econometrics</i>, 2021
-
-                </li>
-
-
-            </ul>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>&copy; Copyright 2026 Tim Mensinger. Last updated: May 19, 2026.</p>
-    </footer>
+            <div class="image-block"><img src="assets/img/rectangle_close_up.jpg" alt="Tim Mensinger"></div>
+        </div>
+    </section>
+    <section class="research">
+        <h2>Research</h2>
+        <ul>
+            <li><a href="https://www.crctr224.de/research/discussion-papers/archive/dp513">How Gender Role Attitudes Shape Maternal Labor Supply</a><br>
+                <span class="coauthors">Mensinger and Zimpelmann (2024)</span><br>CRC TR 224 Discussion Paper No. 513
+                <p>Combines German Family Panel (pairfam) evidence with a dynamic maternal labour-supply model incorporating attitude heterogeneity and human-capital accumulation to study childcare-policy responses.</p></li>
+            <li><strong>Life-Cycle Models as Linked Regimes</strong><br>
+                <span class="coauthors">Mensinger, Jahn, Gabler and von Gaudecker (2026)</span><br><i>Manuscript in preparation</i>
+                <p>Framework for representing life-cycle models as linked local decision problems whose states, actions, and constraints can differ across situations and life stages.</p></li>
+            <li><a href="https://www.crctr224.de/research/discussion-papers/archive/dp522">Tranquilo: An Optimizer for the Method of Simulated Moments</a><br>
+                <span class="coauthors">Gabler, Gsell, Mensinger and Petrosyan (2024)</span><br>CRC TR 224 Discussion Paper No. 522
+                <p>Trust-region optimisation for simulated-moments estimation, exploiting least-squares structure, parallel evaluation and adaptive treatment of simulation noise.</p></li>
+            <li><a href="https://www.dliebl.com/files/Creutzinger_et_al_2026.pdf">Adaptive Simultaneous Prediction Bands in Concurrent Functional Linear Regression</a><br>
+                <span class="coauthors">Creutzinger, Liebl, Mensinger and Sharp (2026)</span><br>Manuscript submitted to <i>Journal of Machine Learning Research</i>
+                <p>Simultaneous prediction and confidence bands with time-adaptive critical values for functional regression.</p></li>
+            <li><a href="https://doi.org/10.1016/j.jeconom.2021.09.006">A wavelet method for panel models with jump discontinuities in the parameters</a><br>
+                <span class="coauthors">Bada, Kneip, Liebl, Mensinger, Gualtieri and Sickles (2022)</span><br><i>Journal of Econometrics</i>, 226(2), 399-422</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Contact</h2>
+        <ul>
+            <li><span class="email" data-u="mensinger" data-d="uni-bonn.de"></span></li>
+            <li><a href="https://github.com/timmens">github/timmens</a></li>
+            <li><a href="https://www.linkedin.com/in/timmensinger">linkedin/timmensinger</a></li>
+            <li><a href="https://twitter.com/MensingerTim">twitter/mensingertim</a></li>
+            <li><a href="https://bsky.app/profile/mensingertim.bsky.social">bsky/mensingertim.bsky.social</a></li>
+        </ul>
+    </section>
+</main>
+<footer><p>&copy; Copyright 2026 Tim Mensinger. Last updated: October 11, 2026.</p></footer>
 </body>
-
 </html>
